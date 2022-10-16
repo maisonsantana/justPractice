@@ -6,4 +6,140 @@
 }
 body {
   font-family: "Ubuntu", sans-serif;
+  line-height: 1.5;
+}
+.header {
+  padding-top: 11vh;
+  height: 44vh;
+  background-image: url(./../images/bgImage.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity: 0.9;
+  color: aliceblue;
+}
+.header__title {
+  font-size: 30px;
+}
+.header__paragraph {
+  padding: 15px 0 0 0;
+  margin: 0 auto;
+  width: 800px;
+  font-size: 15px;
+}
+.header__btn {
+  display: inline-block;
+  margin: 20px 0 0 0;
+  border: 1px solid rgb(105, 105, 105);
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #fff;
+  background: rgb(36, 36, 36);
+}
+.header__btn:hover {
+  color: black;
+  background-color: white;
+}
+.main {
+  color: #333;
+  background-color: #eaeaea;
+}
+.main__title {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  font-size: 22px;
+}
+.main__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  width: 750px;
+  text-align: center;
+  font-size: 15px;
+}
+.main__2container {
+  padding: 30px 15px;
+  text-align: center;
+  color: black;
+  background-color: #333;
+}
+.main__nav-list {
+  display: flex;
+  justify-content: center;
+}
+.main__list {
+  width: 13%;
+  background: #fff;
+  color: #333;
+}
+.main__list2 {
+  margin: 0 20px 0 20px;
+}
+.image {
+  width: 100%;
+}
+.card-content {
+  padding: 10px;
+}
+.main__2title {
+  padding: 15px 0 25px 0;
+}
+.main__3paragraph {
+  padding: 10px 0 10px 0;
+  font-size: 15px;
+}
+.main__section {
+  padding: 25px;
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+}
+.main__3title {
+  padding: 10px 0 10px 0;
+  font-size: 22px;
+}
+.main__4paragraph {
+  margin: 0 auto;
+  padding: 20px 0 10px 0;
+  width: 700px;
+  font-size: 15px;
+}
+.main__3container {
+  display: flex;
+  text-align: center;
+}
+.color-box1 {
+  padding: 35px;
+  width: 93vw;
+  color: white;
+  background-color: #2690d4;
+}
+.color-box2 {
+  padding: 35px;
+  color: white;
+  background-color: #333;
+}
+.main__4title {
+  padding: 20px 0 20px 0;
+  font-size: 22px;
+}
+.main__5paragraph,
+.main__6paragraph {
+  padding: 15px 0 15px 0;
+  font-size: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 35px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+}
+.footer__link {
+  color: #2690d4;
+  text-decoration: none;
 }
